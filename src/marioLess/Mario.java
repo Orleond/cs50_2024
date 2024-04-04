@@ -1,7 +1,5 @@
 package marioLess;
 
-import java.util.Scanner;
-
 /*
  * Задача из гарвардского курса. Ссылка:
  * https://cs50.harvard.edu/x/2024/psets/1/mario/less/
@@ -25,6 +23,8 @@ import java.util.Scanner;
  *
  * Re-prompt the user, again and again as needed, if their input is not greater than 0 or not an int altogether.
  */
+import java.util.Scanner;
+
 public class Mario {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
