@@ -149,9 +149,7 @@ public class Credit {
         }
         for (int i = numberLength - 1; i >= 0 ; i -= 2)
             sum += (int)cardNumber.charAt(i) - 48;
-        if (sum % 10 == 0)
-            return true;
-        return false;
+        return sum % 10 == 0;
     }
     public static boolean isNumber(String str) {
         int checkNum;
