@@ -5,6 +5,25 @@ import java.util.Scanner;
 /*
  * Задача из гарвардского курса. Ссылка:
  * https://cs50.harvard.edu/x/2024/psets/1/mario/less/
+ *
+ * In a file called mario.c in a folder called mario-less, implement a program in C
+ * that recreates that pyramid, using hashes (#) for bricks, as in the below:
+ *        #
+ *       ##
+ *      ###
+ *     ####
+ *    #####
+ *   ######
+ *  #######
+ * ########
+ *
+ * But prompt the user for an int for the pyramid’s actual height, so that the program
+ * can also output shorter pyramids like the below:
+ *        #
+ *       ##
+ *      ###
+ *
+ * Re-prompt the user, again and again as needed, if their input is not greater than 0 or not an int altogether.
  */
 public class Mario {
     public static void main(String[] args) {
